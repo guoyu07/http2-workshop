@@ -1,0 +1,22 @@
+{
+  "name": "http2-workshop",
+  "version": "1.0.0",
+  "description": "http2-workshop",
+  "scripts": {
+    "ex1": "node src/ex1.js",
+    "ex2": "nodemon -r dotenv/config src/index.js | ./node_modules/.bin/bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:swami701/http2-workshop.git"
+  },
+  "author": "swami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swami701/http2-workshop/issues"
+  },
+  "homepage": "https://github.com/swami701/http2-workshop#readme",
+  "devDependencies": {
+    "tls-keygen": "^1.0.1"
+  }
+}
